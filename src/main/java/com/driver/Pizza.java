@@ -70,7 +70,7 @@ public class Pizza {
                 bill+="Extra Toppings Added: "+toppingsPrice+"\n";
             if(isPaperBagAdded)
                 bill+="Paperbag Added: "+paperBagPrice+"\n";
-            bill+="Total Price"+totalPrice+"\n";
+            bill+="Total Price: "+totalPrice+"\n";
             isBillGenerated = true;
         }
         return this.bill;
